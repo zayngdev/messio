@@ -12,9 +12,10 @@ class InputWidget extends StatelessWidget {
         children: <Widget>[
           Material(
             child: new Container(
-              margin: new EdgeInsets.symmetric(horizontal: 1.0),
-              child: new IconButton(
-                icon: new Icon(Icons.face),
+              margin: EdgeInsets.symmetric(horizontal: 1.0),
+              child: IconButton(
+                onPressed: (){},
+                icon: Icon(Icons.face),
                 color: Palette.primaryColor,
               ),
             ),
