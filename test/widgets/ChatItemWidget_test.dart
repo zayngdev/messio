@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:messio/widgets/chat_item_widget.dart';
+import 'package:messio/widgets/ChatItemWidget.dart';
 
 void main(){
   const MaterialApp app = MaterialApp(
